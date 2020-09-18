@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Laravel Boolean</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
   </head>
   <body>
@@ -14,19 +15,7 @@
 
       @yield('content')
 
-      <div id="lunghe">
-        <h2>LE LUNGHE</h2>
-      </div>
 
-
-      <div id="corte">
-        <h2>LE CORTE</h2>
-      </div>
-
-
-      <div id="cortissime">
-        <h2>LE CORTISSIME</h2>
-      </div>
 
 
     </div>

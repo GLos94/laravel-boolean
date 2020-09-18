@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -9,25 +10,47 @@ body {
   height: 100vh;
 }
 
+img {
+  width: 20%;
+}
+
 a {
   color: white;
 }
 
-div.container {
-  display: flex;
+h1 {
+  color: #002d75;
+  margin: 2% 0;
 }
 
-div.container > * {
-  margin: auto;
+div.container {
+  width: 92%;
+  margin: 0 8%;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+
+header .menu {
+  display: flex;
+  justify-content: center;
+}
+
+header ul {
+  width: 24%;
 }
 
 header li {
   display: inline-block;
   list-style-type: none;
+  padding-right: 4%;
 }
 
 header a {
   text-decoration: none;
   color: black;
+  font-size: 40px;
 }
 
