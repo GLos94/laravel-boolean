@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+div.container {
+  display: flex;
+}
+
+div.container > * {
+  margin: auto;
+}
+
+header li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
