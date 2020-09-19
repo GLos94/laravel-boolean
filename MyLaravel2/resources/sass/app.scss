@@ -52,7 +52,7 @@ header{
   }
 
   ul{
-    width: 24%;
+    width: 18%;
   }
 
   li{
@@ -64,7 +64,7 @@ header{
   a{
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 25px;
 
   }
 
@@ -73,5 +73,29 @@ header{
 
 
 footer{
-  
+  display: flex;
+  justify-content: center;
+  padding-top: 6%;
+
+  div{
+    padding-right: 5%;
+  }
+
+  img{
+    width: 70%;
+  }
+
+  h1{
+    color: #524a4a;
+    padding-bottom: 5%;
+
+  }
+
+  li{
+      list-style-type: none;
+      color: #524a4a;
+      padding-bottom: 5%;
+      font-size: 15px;
+      font-weight: lighter;
+  }
 }
